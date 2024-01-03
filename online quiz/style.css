@@ -1,0 +1,66 @@
+body{
+	background-color: rgba(9, 199, 252, 0.395);
+}
+#header{
+	top: 0px;
+	background-color: black;
+	color: white;
+	padding: 5px;
+	justify-content: center;
+	text-align: center;
+	text-decoration: underline white;
+
+}
+section{
+	background-color: #4ba7f381;
+	width: 100%;
+}
+.scp-quizzes-main{ width:100%; font-family:Verdana, Arial, Helvetica, sans-serif;}	 
+.scp-quizzes-data{ 
+box-shadow: 0px 1px 3px -1px #f34b4b;
+padding:10px;
+margin-top:15px;
+}
+pre{ border:2px solid #cbd430;
+	background-color: black;
+	color: rgb(247, 207, 165);
+	 padding:10px; 
+	 overflow-x:scroll;}
+ 	 input[type=radio]
+  {
+    display:none; 
+}
+input[type=radio] + label {
+    display:inline-block;
+	width:95%;
+	padding:10px;
+	border:1px solid #1c828b;
+	margin-bottom:10px;
+	cursor:pointer;
+}
+input[type=radio] + label:hover{ border:1px solid #000000;}
+input[type=radio]:checked + label { 
+   background-image: none;
+   background-color:#0C0;
+	color:#fff;
+	border:1px solid #0C0 !important;
+	-webkit-transition: all 0.2s ease-in-out;
+-moz-transition: all 0.2s ease-in-out;
+-o-transition: all 0.2s ease-in-out;
+-ms-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;
+}
+.worngans{ background-color:#F36;color:#8e91ef; border:1px solid #F36 !important;-webkit-transition: all 0.2s ease-in-out;
+-moz-transition: all 0.2s ease-in-out;
+-o-transition: all 0.2s ease-in-out;
+-ms-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;}
+#footer{
+	bottom: 0px;
+    background-color: green;
+	color: white;
+	padding: 10px;
+	margin-top: 12px;
+	text-align: center;
+	justify-content: center;
+}
